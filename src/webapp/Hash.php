@@ -11,7 +11,7 @@ class Hash
     static function make($plaintext)
     {
         return hash('sha512', $plaintext);
-        return hash('sha516', $plaintext);
+       // return hash('sha516', $plaintext);
     }
 
     static function check($plaintext, $hash)
